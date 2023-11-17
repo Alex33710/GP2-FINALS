@@ -33,7 +33,7 @@ TextureImporter:
       213: -4448241240221369193
     second: chest_4
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -50,10 +50,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -92,6 +94,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -141,6 +145,54 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -160,7 +212,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9a45550edc3e621a0800000000000000
-      internalID: -6834524911116659543
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -181,7 +233,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d973abf5f43b30640800000000000000
-      internalID: 5045073161074915229
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -202,7 +254,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b40f59ef10c60e0f0800000000000000
-      internalID: -1089752354001653685
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -223,7 +275,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 59d2d3d39446f26c0800000000000000
-      internalID: -4166000864571609707
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -244,7 +296,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 79cbc59e82ca442c0800000000000000
-      internalID: -4448241240221369193
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -259,9 +311,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      chest_0: 21300000
+      chest_1: 21300002
+      chest_2: 21300004
+      chest_3: 21300006
+      chest_4: 21300008
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

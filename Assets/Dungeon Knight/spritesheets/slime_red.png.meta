@@ -33,7 +33,7 @@ TextureImporter:
       213: -4663148912110931986
     second: slime_red_4
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -50,10 +50,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -92,6 +94,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -141,6 +145,54 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -160,7 +212,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 54e99de7747c8ce00800000000000000
-      internalID: 1065320421757918789
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -181,7 +233,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ac7057782a5f997f0800000000000000
-      internalID: -605182596498520118
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -202,7 +254,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a5a0e79c0f0fb20c0800000000000000
-      internalID: -4599317677465531814
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -223,7 +275,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b6aec39675e135880800000000000000
-      internalID: -8623515500707779989
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -244,7 +296,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: eefe0e655ca294fb0800000000000000
-      internalID: -4663148912110931986
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -259,9 +311,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      slime_red_0: 21300000
+      slime_red_1: 21300002
+      slime_red_2: 21300004
+      slime_red_3: 21300006
+      slime_red_4: 21300008
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
